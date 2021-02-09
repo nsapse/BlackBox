@@ -169,7 +169,6 @@ class BlackBoxGame():
         :return: True or False, indicating whether an atom exists at that coordinate
         :rtype: Bool
         """
-        print(self._atoms)
         if [row, column] in self._atoms:
             # if an tom was properly guessed remove it from the atom's array
             # and return True, append the guess to the guesses array, and

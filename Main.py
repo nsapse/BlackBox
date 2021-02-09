@@ -12,7 +12,6 @@ def main(atoms):
 
     # pull the board from the game instance 
     new_board = new_game.get_board()
-    print(new_board)
     # Setup Drawing of Board
     size = width, height = 1200, 1300
     white = 255, 255, 255
@@ -135,7 +134,6 @@ def main(atoms):
                             # a click on an edge square constitutes shooting a ray
                             new_game.shoot_ray(row, column)
 
-                print(f'Square Detection {pygame.mouse.get_pos()}')
 
 def game_over():
     pygame.init()
