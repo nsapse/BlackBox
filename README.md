@@ -1,5 +1,6 @@
 # Black Box - An Approximation Of The Board Game "Black Box"
 
+![Gameplay Preview](./game_footage.gif "Gameplay Preview")
 This program written in Python using Pygame for interactivity allows you to play the "abstract board game" Black Box.
 The game (described here) (https://en.wikipedia.org/wiki/Black_Box_(game) is a 2D (roughly) physics based 
 guessing game in which the player guesses the position of "Atoms" within the box based on the reflection of "Rays"
